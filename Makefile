@@ -14,9 +14,6 @@ CMD_RM		= rm -rf
 SRCS		= $(wildcard *.c) $(wildcard *.cc) $(wildcard *.cpp)
 OBJS		= $(patsubst %.cpp, %.o, $(patsubst %.cc, %.o, $(patsubst %.c, %.o, $(SRCS))))
 
-TOTAL		= $(words $(OBJS))
-CURRENT		= 0
-
 ### Targets
 default: all
 
