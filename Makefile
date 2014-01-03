@@ -1,7 +1,7 @@
 ### Pre-Settings
 CC			= mingw32-gcc
 CXX			= mingw32-g++
-CFLAGS		= -g -O2 -pipe -Wl,-R
+CFLAGS		= -g -O2 -pipe
 CXXFLAGS	= $(CFLAGS)
 INCS		= -I.
 LIBS		= -L.
